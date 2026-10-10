@@ -14,9 +14,18 @@ The product goal was to make complex chart information easier to explore through
 
 The project covers product definition, visual design, AI integration, monetization, quality assurance, and App Store preparation. Astrological interpretations are designed for reflection and entertainment, not as medical, legal, or financial advice.
 
+<p align="center">
+  <img src="assets/screenshots/daily-forecast.png" alt="Stiddi daily forecast screen" width="200" />
+  <img src="assets/screenshots/natal-chart.png" alt="Stiddi natal chart screen" width="200" />
+  <img src="assets/screenshots/ai-chat.png" alt="Stiddi contextual AI chat screen" width="200" />
+  <img src="assets/screenshots/synastry.png" alt="Stiddi synastry screen" width="200" />
+</p>
+
+*Daily forecast, natal chart, contextual AI chat, and synastry in the English-language demo profile.*
+
 ## My Role
 
-I created and led Stiddi from the initial idea through product design, development, testing, and App Store preparation.
+I created Stiddi, my first iPhone application, from the initial concept through design, development, and testing.
 
 I defined the concept, features, user journeys, and visual design. I created the illustrations in Ideogram from my own prompts and worked on the presentation of charts, readings, onboarding, and purchase screens.
 
@@ -50,7 +59,7 @@ Stiddi connects a React Native mobile application to a Python backend. Calculati
 
 **Astronomical calculations:** Stiddi uses a custom calculation engine built around established libraries, including Skyfield, and NASA/JPL astronomical data. The backend calculates positions and prepares chart information before the AI interpretation stage.
 
-**Infrastructure:** The application backend is hosted on **Hetzner Cloud in Germany**. **Scaleway Object Storage** is the selected provider for a prepared off-site backup integration; live backup operation has not yet been verified.
+**Infrastructure:** The application backend is hosted on **Hetzner Cloud in Germany**.
 
 A typical reading starts with the user's chart inputs, continues through backend calculations and AI interpretation, and is saved for later access in the application.
 
@@ -62,7 +71,7 @@ A typical reading starts with the user's chart inputs, continues through backend
 | Backend | Python, FastAPI, SQLite |
 | AI | OpenAI API, prompt engineering |
 | Astronomy | Skyfield, NASA/JPL data |
-| Infrastructure | Hetzner Cloud; Scaleway Object Storage integration prepared |
+| Infrastructure | Hetzner Cloud |
 | Testing and Release | GitHub Actions, TestFlight, App Store Connect |
 | Development Assistance | Codex |
 | Visual Assets | Ideogram |
