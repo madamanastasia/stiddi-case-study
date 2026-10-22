@@ -4,6 +4,8 @@
 
 An iPhone application combining astronomical calculations, personalized astrology readings, and contextual AI conversations.
 
+**Current status: the iOS app is being tested via TestFlight. It has not yet been publicly released on the App Store.**
+
 This is a documentation-only portfolio repository. The application source code remains private.
 
 ## Product Overview
@@ -102,6 +104,6 @@ One important lesson was to test complete journeys rather than isolated screens.
 - [Privacy policy](https://stiddi.app/privacy/)
 - **Contact:** contact@stiddi.app
 
-This case study covers development, testing, and App Store preparation. An App Store link will be added after public release.
+This case study covers ongoing development, testing via TestFlight, and App Store preparation. An App Store link will be added after public release.
 
 Stiddi's application code and brand assets remain proprietary. Third-party libraries, assets, and datasets retain their respective licenses and attribution requirements.
