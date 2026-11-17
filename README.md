@@ -94,8 +94,6 @@ Testing combined automated backend and frontend checks with browser testing and 
 - First chat entry, question balances, and access to purchased content.
 - Reading presentation, localization, and error states.
 
-**Security and reliability:** server-side validation of Telegram authentication data, payment verification, error handling, data protection, and automated testing.
-
 One important lesson was to test complete journeys rather than isolated screens. A successful payment, for example, also needs to result in the correct content access and chat experience. Localization similarly involves presentation and behavior, not just translated text.
 
 ## Links & Contact
